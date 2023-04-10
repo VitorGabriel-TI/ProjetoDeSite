@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia</title>
+    <meta name="description" content="O melhor centro de saúde do Brasil">
+    <link rel="icon" href="img/fav.png">
+    <!--google icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <!--materialize css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--custom css-->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<!--header-->
+<header>
+
+    <!--menu mobile-->
+    <ul id="slide-out" class="sidenav">
+        <li><a class="sidenav-close" href="#home">Home</a></li>
+        <li><a class="sidenav-close" href="#sobre">Sobre a academia</a></li>
+        <li><a class="sidenav-close" href="#servicos">Serviços</a></li>
+        <li><a class="sidenav-close" href="#unidades">Unidades</a></li>
+        <li><a class="sidenav-close" href="#contato">Contato</a></li>
+    </ul>
+
+    <div class="navbar-fixed">
+    <nav class="navbar z-depth-0">
+        <div class="nav-wrapper container">
+           <!--esta nav ira conter a logo e o menu (o h1 ficará escondido e servira apenas como mecanismo de pesquisa)-->
+            <h1 class="logo_text">Nome da academia</h1>
+            <a href=""><img class="logo_img" src="img/logo.png" alt="Nome da academia"></a>
+
+            <ul class="right light hide-on-med-and-down">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre a academia</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#unidades">Unidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+
+            <!--fazendo menu para mobile-->
+
+            <a href="#" data-target="slide-out" class="sidenav-trigger right"><i class="material-icons MenuText">menu</i></a>
+        </div>
+    </nav>
+    </div>
+</header>
+
+    <!-- home -->
+    <!--começaremos a desenvolver as sessoes começando pela home-->
+    <section class="home bloco scrollspy" id="home">
+        <div class="row container banner">
+            <div class="col s12 center">
+                <h2 class="white-text"> O melhor treinamento</h2>
+                <p class="white-text light">Experimente a excelência em fitness: nossa academia oferece equipamentos de ponta, treinadores especializados e um ambiente inspirador para você alcançar seus melhores resultados</p>
+                <div class="row">
+                <!--aqui colocaremos dois botoes um com o link para sobre nós e outro com a pagina de contato-->
+                    <a href="#sobre" class="btn btn-large blue-logo"> Sobre nós </a>
+                    <a href="#contato" class="btn btn-large white black-text">Contato</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sobre -->
+    <section class="sobre bloco scrollspy" id="sobre">
+        <div class="row container">
+            <div class="col s12 center">
+                <h2 class="light titulo">Sobre nós</h2>
+            </div>
+            
+            <div class="col s12 l6">
+                <p class="light paragrafo">Bem-vindo à nossa academia! Temos o prazer de oferecer um ambiente moderno e inspirador, projetado para ajudá-lo a alcançar seus objetivos fitness. Estamos localizados em diversas regiões do Brasil, com instalações amplas e equipamentos de última geração disponíveis para nossos membros.
+
+                    Em cada uma de nossas unidades, você encontrará treinadores qualificados e experientes, prontos para oferecer orientação personalizada e apoio constante em sua jornada de fitness. Com horários flexíveis e diversas opções de aulas, estamos sempre disponíveis para ajudá-lo a atingir seus objetivos, independentemente de sua agenda.
+                    
+                    Venha visitar nossa academia e experimente o melhor em fitness. Estamos ansiosos para recebê-lo!</p>
+            </div>
+
+            <div class="col s12 l6">
+                <div class="carousel carousel-slider">
+                    <a href="#" class="carousel-item">
+                        <img alt="Imagem institucional" src="img/banner-01.jpg">
+                    </a>
+                    <a href="#" class="carousel-item">
+                        <img alt="Imagem institucional" src="img/banner-02.jpg">
+                    </a>
+                    <a href="#" class="carousel-item">
+                        <img alt="Imagem institucional" src="img/banner-03.jpg">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row blue-logo missao-visao-valores">
+            <div class="container">
+                <article class="item col s12 m4 center">
+                    <span class="icon"><i class="material-icons medium">directions_run</i></span>
+                    <h3 class="light">Missão</h3>
+                    <p class="light">Nossa missão é inspirar e capacitar as pessoas a alcançar sua melhor versão, promovendo um estilo de vida saudável e equilibrado. Buscamos fornecer um ambiente acolhedor e motivador, onde nossos membros possam se desafiar e superar seus limites, alcançando seus objetivos fitness e melhorando sua qualidade de vida.</p>
+                </article>
+
+                <article class="item col s12 m4 center">
+                    <span class="icon"><i class="material-icons medium">visibility</i></span>
+                    <h3 class="light">Visão</h3>
+                    <p class="light">Nossa visão é sermos reconhecidos como líderes em saúde e fitness, oferecendo um serviço excepcional em todas as nossas unidades. Buscamos expandir nossa presença para alcançar cada vez mais pessoas, ajudando-as a alcançar seus objetivos de maneira sustentável e duradoura.</p>
+                </article>
+
+                <article class="item col s12 m4 center">
+                    <span class="icon"><i class="material-icons medium">grade</i></span>
+                    <h3 class="light">Valores</h3>
+                    <p class="light">Nossos valores fundamentais incluem a paixão pelo fitness e pela saúde, o compromisso com a excelência, a integridade em todas as nossas relações e a dedicação ao serviço ao cliente. Buscamos inspirar nossos membros a encontrar sua paixão pelo fitness, fornecendo-lhes uma experiência excepcional que promove a saúde e o bem-estar em todos os aspectos.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!--serviços-->
+    <section class="servicos bloco scrollspy" id="servicos">
+        <div class="row container">
+            <div class="col s12 center">
+                <h2 class="light titulo white-text">Serviços</h2>
+                <p class="light paragrafo white-text">Oferecemos uma ampla gama de serviços para ajudar nossos membros a atingir seus objetivos de saúde e fitness. Entre nossos serviços estão o Pilates, a Nutrição, a Fisioterapia e o Treinamento Funcional, todos eles conduzidos por profissionais altamente qualificados e experientes.</p>
+            </div>
+        </div>
+
+        <div class="row container">
+            <!--pilates-->
+            <article class="col s12 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/pilates.jpg" alt="Pilates" class="materialboxed">
+                        <a href="#pilates-modal" class="btn btn-floating halfway-fab blue-logo modal-trigger">
+                            <i class="material-icons">more_horiz</i>
+                        </a>
+                    </div>
+
+                    <div class="card-content">
+                        <h3 class="card-title"> Pilates</h3>
+                        <p class="light black-text"> Oferecemos aulas de Pilates, um método de exercício para melhorar a postura, o equilíbrio e a coordenação.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!--modal pilates-->
+            <div class="modal" id="pilates-modal">
+                <div class="modal-content">
+                    <h5 class="light"> O que é pilates</h5>
+                    <p class="light black-text">Pilates é uma forma de exercício que se concentra no fortalecimento muscular, na flexibilidade e no controle dos movimentos. É praticado em todo o mundo por pessoas de todas as idades e níveis de habilidade. O método Pilates envolve a utilização de equipamentos específicos, como o Reformer, ou pode ser realizado apenas no solo com a ajuda de acessórios. Os benefícios da prática do Pilates incluem a melhoria da postura, a redução da dor nas costas, o aumento da força e da flexibilidade, além de ajudar na prevenção de lesões. As técnicas de respiração e a consciência corporal desenvolvidas na prática de Pilates também podem ajudar a reduzir o estresse e a ansiedade, proporcionando uma sensação de bem-estar físico e mental.</p>
+                    <h5 class="light">Quais são os beneficios do pilates?</h5>
+                    <ul class="collection">
+                        <li class="collection-item">Alongar e tonificar</li>
+                        <li class="collection-item">Alongar e tonificar</li>
+                        <li class="collection-item">Recuperar lesões</li>
+                        <li class="collection-item">reduzir stress</li>
+                        <li class="collection-item">deixar a coluna forte</li>
+                        <li class="collection-item">Melhorar articulações</li>
+                        <li class="collection-item">Melhorar circulação</li>
+                        <li class="collection-item">Aumentar coordenação</li>
+                        <li class="collection-item">Corrigir músculos</li>
+                        <li class="collection-item">Melhorar mobilidade</li>
+                        <li class="collection-item">Complementar treino esportivo</li>
+                        <li class="collection-item">Melhorar o visual do corpo</li>
+                    </ul>
+                </div>
+
+                <div class="modal-footer">
+                    <a class="btn blue-logo modal-action modal-close"> Sair </a>
+                </div>
+            </div>
+
+            <!--nutrição-->
+            <article class="col s12 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/nutricao.jpg" alt="Nutrição" class="materialboxed">
+                        <a href="#nutricao-modal" class="btn btn-floating halfway-fab blue-logo modal-trigger">
+                            <i class="material-icons">more_horiz</i>
+                        </a>
+                    </div>
+
+                    <div class="card-content">
+                        <h3 class="card-title"> Nutrição</h3>
+                        <p class=" light black-text"> Oferecemos serviços de nutrição personalizados para ajudar nossos membros a alcançar seus objetivos de saúde e fitness.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!--modal nutrição-->
+            <div class="modal" id="nutricao-modal">
+                <div class="modal-content">
+                    <h5 class="light"> Qual a importância da nutrição </h5>
+                    <p class="light black-text">Nutrição é uma área fundamental da saúde e do bem-estar que envolve a escolha de alimentos e nutrientes adequados para manter o corpo saudável e em bom funcionamento. A prática de nutrição adequada é essencial para promover a saúde, prevenir doenças e manter uma vida saudável. Nossos nutricionistas são especialistas em ajudar nossos membros a desenvolver hábitos alimentares saudáveis e equilibrados, de acordo com suas necessidades individuais. Eles fornecem planos de alimentação personalizados e educam sobre nutrição, para ajudar nossos membros a alcançar seus objetivos de saúde e bem-estar. Os benefícios da prática de uma dieta equilibrada incluem a redução do risco de doenças crônicas, como diabetes e doenças cardíacas, além de melhorar a energia, a digestão e a qualidade do sono.</p>
+                    <h5 class="light">Quais são os beneficios da nutrição?</h5>
+                    <ul class="collection">
+                        <li class="collection-item">Alongar e tonificar</li>
+                        <li class="collection-item">Alongar e tonificar</li>
+                        <li class="collection-item">Recuperar lesões</li>
+                        <li class="collection-item">reduzir stress</li>
+                        <li class="collection-item">deixar a coluna forte</li>
+                        <li class="collection-item">Melhorar articulações</li>
+                        <li class="collection-item">Melhorar circulação</li>
+                        <li class="collection-item">Aumentar coordenação</li>
+                        <li class="collection-item">Corrigir músculos</li>
+                        <li class="collection-item">Melhorar mobilidade</li>
+                        <li class="collection-item">Complementar treino esportivo</li>
+                        <li class="collection-item">Melhorar o visual do corpo</li>
+                    </ul>
+                </div>
+
+                <div class="modal-footer">
+                    <a class="btn blue-logo modal-action modal-close"> Sair </a>
+                </div>
+            </div>
+
+            <!--fisioterapia-->
+            <article class="col s12 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/fisioterapia.jpg" alt="Fisioterapia" class="materialboxed">
+                        <a href="#fisioterapia-modal" class="btn btn-floating halfway-fab blue-logo modal-trigger">
+                            <i class="material-icons">more_horiz</i>
+                        </a>
+                    </div>
+
+                    <div class="card-content">
+                        <h3 class="card-title"> Fisioterapia</h3>
+                        <p class="light black-text"> Nosso serviço é projetado para ajudar nossos membros a se recuperar de lesões, melhorar a mobilidade e reduzir a dor.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!--modal fisioterapia-->
+            <div class="modal" id="fisioterapia-modal">
+                <div class="modal-content">
+                    <h5 class="light"> Qual a importância da fisioterapia </h5>
+                    <p class="light black-text">A fisioterapia é uma especialidade da área de saúde que tem como objetivo ajudar os pacientes a recuperar a função física e a mobilidade, além de aliviar a dor e prevenir futuras lesões. Nossos fisioterapeutas são altamente treinados e experientes em ajudar nossos membros a superar lesões, dores crônicas e limitações físicas. Eles trabalham com nossos membros para desenvolver planos de tratamento personalizados, incluindo exercícios específicos e terapias manuais, para ajudá-los a alcançar seus objetivos de saúde e bem-estar. Os benefícios da fisioterapia incluem o aumento da flexibilidade, da força muscular e da mobilidade, além de reduzir a dor e melhorar a qualidade de vida.</p>
+                    <h5 class="light">Quais são os beneficios da fisioterapia?</h5>
+                    <ul class="collection">
+                        <li class="collection-item">Alongar e tonificar</li>
+                        <li class="collection-item">Alongar e tonificar</li>
+                        <li class="collection-item">Recuperar lesões</li>
+                        <li class="collection-item">reduzir stress</li>
+                        <li class="collection-item">deixar a coluna forte</li>
+                        <li class="collection-item">Melhorar articulações</li>
+                        <li class="collection-item">Melhorar circulação</li>
+                        <li class="collection-item">Aumentar coordenação</li>
+                        <li class="collection-item">Corrigir músculos</li>
+                        <li class="collection-item">Melhorar mobilidade</li>
+                        <li class="collection-item">Complementar treino esportivo</li>
+                        <li class="collection-item">Melhorar o visual do corpo</li>
+                    </ul>
+                </div>
+
+                <div class="modal-footer">
+                    <a class="btn blue-logo modal-action modal-close"> Sair </a>
+                </div>
+            </div>
+
+            <!--funcional-->
+            <article class="col s12 m6 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/funcional.jpg" alt="Funcional" class="materialboxed">
+                        <a href="#funcional-modal" class="btn btn-floating halfway-fab blue-logo modal-trigger">
+                            <i class="material-icons">more_horiz</i>
+                        </a>
+                    </div>
+
+                    <div class="card-content">
+                        <h3 class="card-title"> Funcional</h3>
+                        <p class="light black-text"> Oferecemos aulas de treinamento funcional, um tipo de treinamento para melhorar a força, a estabilidade e a flexibilidade.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!--modal funcional-->
+            <div class="modal" id="funcional-modal">
+                <div class="modal-content">
+                    <h5 class="light"> Qual a importância do funcional </h5>
+                    <p class="light black-text">O treinamento funcional é um método de treinamento que se concentra em desenvolver a força, a flexibilidade e a estabilidade do corpo para melhorar a capacidade funcional no dia a dia. Nossos treinadores especializados em treinamento funcional criam planos de treinamento personalizados, com exercícios que simulam movimentos comuns da vida cotidiana, como agachar, levantar e girar, para ajudar nossos membros a melhorar o equilíbrio, a postura e a prevenir lesões. Os exercícios funcionais são adaptados às necessidades e objetivos individuais de cada membro, incluindo atletas de alto desempenho, idosos e pessoas que buscam melhorar sua saúde geral. Os benefícios do treinamento funcional incluem a melhoria da coordenação, equilíbrio e estabilidade, além de fortalecer músculos e melhorar a resistência física.</p>
+                    <h5 class="light">Quais são os beneficios do funcional?</h5>
+                    <ul class="collection">
+                        <li class="collection-item">Alongar e tonificar</li>
+                        <li class="collection-item">Alongar e tonificar</li>
+                        <li class="collection-item">Recuperar lesões</li>
+                        <li class="collection-item">reduzir stress</li>
+                        <li class="collection-item">deixar a coluna forte</li>
+                        <li class="collection-item">Melhorar articulações</li>
+                        <li class="collection-item">Melhorar circulação</li>
+                        <li class="collection-item">Aumentar coordenação</li>
+                        <li class="collection-item">Corrigir músculos</li>
+                        <li class="collection-item">Melhorar mobilidade</li>
+                        <li class="collection-item">Complementar treino esportivo</li>
+                        <li class="collection-item">Melhorar o visual do corpo</li>
+                    </ul>
+                </div>
+
+                <div class="modal-footer">
+                    <a class="btn blue-logo modal-action modal-close"> Sair </a>
+                </div>
+            </div>
+
+            <!--botão quadro de horarios-->
+            <div class="row center btn-horario">
+                <a href="#horarios-modal" class="btn btn-large blue-logo modal-trigger"><i class="material-icons left">timer</i> Quadro de horários</a>
+            </div>
+
+            <!--modal quadro de horarios-->
+            <div class="modal" id="horarios-modal">
+                <div class="modal-content">
+                    <h5 class="light">Quadro de horários</h5>
+
+                    <ul class="tabs">
+                        <li class="tab col s3"><a href="#tabela-pilates">Pilates</a></li>
+                        <li class="tab col s3"><a href="#tabela-musculacao">Musculação</a></li>
+                        <li class="tab col s3"><a href="#tabela-fitness">Fitness</a></li>
+                        <li class="tab col s3"><a href="#tabela-artes-marciais">Artes Marciais</a></li>
+                    </ul>
+
+                    <!--tabela pilates-->
+                    <table class="striped responsive-table" id="tabela-pilates">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Segunda</th>
+                                <th>Terça</th>
+                                <th>Quarta</th>
+                                <th>Quinta</th>
+                                <th>Sexta</th>
+                                <th>Sábado</th>
+                                <th>Domingo</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>6:00 às 10:00</td>
+                                <td>Pilates</td>
+                                <td></td>
+                                <td>Pilates</td>
+                                <td></td>
+                                <td>Pilates</td>
+                                <td>Pilates</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>12:00 às 22:00</td>
+                                <td></td>
+                                <td>Pilates</td>
+                                <td></td>
+                                <td>Pilates</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!--tabela musculação-->
+                    <table class="striped responsive-table" id="tabela-musculacao">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Segunda</th>
+                                <th>Terça</th>
+                                <th>Quarta</th>
+                                <th>Quinta</th>
+                                <th>Sexta</th>
+                                <th>Sábado</th>
+                                <th>Domingo</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>6:00 às 10:00</td>
+                                <td></td>
+                                <td>Musculação</td>
+                                <td></td>
+                                <td>Musculação</td>
+                                <td>Musculação</td>
+                                <td>Musculação</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>12:00 às 22:00</td>
+                                <td>Musculação</td>
+                                <td></td>
+                                <td>Musculação</td>
+                                <td></td>
+                                <td>Musculação</td>
+                                <td>Musculação</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!--tabela pilates-->
+                    <table class="striped responsive-table" id="tabela-fitness">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Segunda</th>
+                                <th>Terça</th>
+                                <th>Quarta</th>
+                                <th>Quinta</th>
+                                <th>Sexta</th>
+                                <th>Sábado</th>
+                                <th>Domingo</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>6:00 às 10:00</td>
+                                <td>Aeróbico</td>
+                                <td>Aeróbico</td>
+                                <td></td>
+                                <td></td>
+                                <td>Aeróbico</td>
+                                <td>Aeróbico</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>12:00 às 22:00</td>
+                                <td>Aeróbico</td>
+                                <td></td>
+                                <td></td>
+                                <td>Aeróbico</td>
+                                <td>Aeróbico</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!--tabela pilates-->
+                    <table class="striped responsive-table" id="tabela-artes-marciais">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Segunda</th>
+                                <th>Terça</th>
+                                <th>Quarta</th>
+                                <th>Quinta</th>
+                                <th>Sexta</th>
+                                <th>Sábado</th>
+                                <th>Domingo</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>6:00 às 10:00</td>
+                                <td>Luta</td>
+                                <td></td>
+                                <td>Luta</td>
+                                <td></td>
+                                <td>Luta</td>
+                                <td>Luta</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>12:00 às 22:00</td>
+                                <td></td>
+                                <td>Pilates</td>
+                                <td></td>
+                                <td>Pilates</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+                <div class="modal-footer">
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--unidades-->
+    <section class="unidades bloco scrollspy" id="unidades">
+        <div class="container">
+            <div class="col s12 center">
+                <h2 class="light titulo white-text">Unidades</h2>
+                <p class="light paragrafo white-text">Disponível em várias localidades no país.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <!--BH-->
+            <article class="col s12 m6">
+                <div class="card horizontal">
+                    <div class="card-image card-image-horizontal">
+                        <img src="img/bh.jpg" alt="Belo Horizonte">
+                    </div>
+
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <h3 class="card-title light">Belo Horizonte</h3>
+                            <p class="light black-text">
+                                <i class="material-icons left">phone</i> 123 321 123 <br>
+                                <i class="material-icons left">email</i> bh@gmail.com <br>
+                                <i class="material-icons left">location_on</i> Av. Belo Horizonte, 123
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!--Salvador-->
+            <article class="col s12 m6">
+                <div class="card horizontal">
+                    <div class="card-image card-image-horizontal">
+                        <img src="img/salvador.jpg" alt="Salvador">
+                    </div>
+
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <h3 class="card-title light">Salvador</h3>
+                            <p class="light black-text">
+                                <i class="material-icons left">phone</i> 123 321 123 <br>
+                                <i class="material-icons left">email</i> salvador@gmail.com <br>
+                                <i class="material-icons left">location_on</i> Av. Bahia, 123
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!--São Paulo-->
+            <article class="col s12 m6">
+                <div class="card horizontal">
+                    <div class="card-image card-image-horizontal">
+                        <img src="img/sp.jpg" alt="São Paulo">
+                    </div>
+
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <h3 class="card-title light">São Paulo</h3>
+                            <p class="light black-text">
+                                <i class="material-icons left">phone</i> 123 321 123 <br>
+                                <i class="material-icons left">email</i> sp@gmail.com <br>
+                                <i class="material-icons left">location_on</i> Av. Bandeirantes, 123
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!--RJ-->
+            <article class="col s12 m6">
+                <div class="card horizontal">
+                    <div class="card-image card-image-horizontal">
+                        <img src="img/rj.jpg" alt="Rio de Janeiro">
+                    </div>
+
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <h3 class="card-title light">Rio de Janeiro</h3>
+                            <p class="light black-text">
+                                <i class="material-icons left">phone</i> 123 321 123 <br>
+                                <i class="material-icons left">email</i> rj@gmail.com <br>
+                                <i class="material-icons left">location_on</i> Av. Leblon, 123
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!--contato-->
+    <section class="contato bloco scrollspy" id="contato">
+        <div class="row container">
+            <div class="col s12 center">
+                <h2 class="titulo light black-text"> Contato </h2>
+            </div>
+
+            <!-- <div class="col s12 m6 l4 hide-on-med-only">
+                <div class="mapa transparent">
+                    <iframe src="link da loc"></iframe>
+                </div>
+            </div>-->
+
+            <div class="col s12 l4">
+                <div class="informacoes white-text">
+                    <h4> Redes sociais </h4>
+                    <p class="light"> Fique por dentro das novidades, receba dicas </p>
+                    <h6><a href="#" class="btn-floating blue darken-4"><i class="material-icons">facebook</i></a> facebook.com/academia</h6>
+                    
+                    <h4> Endereço </h4>
+                    <p class="light"> Rua Oliveira, 123 <br>
+                    Centro, cidade - PR</p>
+
+                    <h4> Contatos </h4>
+                    <p class="light">
+                        (41) 123456789<br>
+                        (21) 123456789<br>
+                        (11) 123456789
+                    </p>
+                </div>
+            </div>
+
+            <div class="col s12 l4">
+                <div class="formulario white black-text ">
+                    <h4>Fale conosco</h4>
+                    <p class="light">Dúvidas, críticas ou sugestóes? Entre em contato.</p>
+                    
+                    <form action="enviar-email.php" method="post">
+
+                        <div class="input-field">
+                            <input type="text" name="name" id="name">
+                            <label for="name">Seu nome</label>
+                        </div>
+
+                        <div class="input-field">
+                            <input type="email" name="email" id="email">
+                            <label for="email">Seu email</label>
+                        </div>
+
+                        <div class="input-field">
+                            <input type="text" name="subject" id="subject">
+                            <label for="subject">Assunto</label>
+                        </div>
+
+                        <div class="input-field">
+                            <textarea id="message" name="message" class="materialize-textarea"></textarea>
+                            <label for="message">Mensagem</label>
+                        </div>
+
+                        <button class="btn blue-logo" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--depoimentos-->
+    <div class="depoimentos blue-logo">
+        <div class="row container">
+            <div class="col s12 center">
+                <h2 class="titulo white-text light">Depoimentos</h2>
+            </div>
+
+            <div class="col s12 m4 center">
+                <img src="img/depo1.jpg" class="circle responsive-img" alt="Depoimento um">
+                <p class="light white-text">"Obrigado pela equipe incrível que me ajudou a alcançar meus objetivos."</p>
+                <h4 class="light white-text">Felipe Souza</h4>
+                <p class="white-text">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                </p>
+            </div>
+
+            <div class="col s12 m4 center">
+                <img src="img/depo2.jpg" class="circle responsive-img" alt="Depoimento do Bruno">
+                <p class="light white-text">"Estou impressionado com a qualidade da estrutura da academia. É um prazer treinar aqui."</p>
+                <h4 class="light white-text">Bruno</h4>
+                <p class="white-text">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                </p>
+            </div>
+            
+            <div class="col s12 m4 center">
+                <img src="img/depo3.jpg" class="circle responsive-img" alt="Depoimento da Ana">
+                <p class="light white-text">"Agradeço à academia pelo ambiente acolhedor e motivador."</p>
+                <h4 class="light white-text">Ana</h4>
+                <p class="white-text">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--rodapé-->
+    <footer class="rodape">
+        <div class="row container center">
+            <img src="img/logo.png" class="logo_img">
+            <p class="light white-text">Academia 2023 - Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <!--materialize js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+     <!--javascript-->
+     <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.sidenav');
+          var instances = M.Sidenav.init(elems, options);
+        });
+    
+        //inicialização
+        $(document).ready(function(){
+            //menu mobile
+          $('.sidenav').sidenav();
+          //link interno
+          $(".scrollspy").scrollSpy({
+            scrollOffset: 0
+          });
+          //carousel
+          $(".carousel.carousel-slider").carousel({
+            fullWidth:true,
+            indicators:true
+          });
+          //modal
+          $(".modal").modal();
+          //tabs
+          $("ul.tabs").tabs();
+          //autoplay
+          function autoplay() {
+            $(".carousel").carousel("next");
+            setTimeout(autoplay, 4500);
+          }
+          autoplay();
+        });
+
+        //adicionando navcolor
+        $(window).on("scroll", function(){
+            if($(window).scrollTop() > 100) {
+                $(".navbar").addClass("nav-color");
+            } else {
+                $(".navbar").removeClass("nav-color");
+            }
+        });
+        
+        //zoom na foto dos serviços
+        $(document).ready(function(){
+        $('.materialboxed').materialbox();
+         });
+       </script>
+       
+        <!--<?php
+            if(isset($_GET['status'])):
+                if($_GET['status'] == "sucesso"):
+                    echo "<script>Materialize.toast('Enviado com sucesso!', 4000);</script>";
+                else:
+                    echo "<script>Materialize.toast('Erro ao enviar', 4000);</script>";
+                endif;
+            endif;
+        ?>-->
+
+</body>
+</html>
